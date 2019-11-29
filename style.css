@@ -418,6 +418,7 @@ h2 {
 }
 .ul-flex {
     display: flex;
+    justify-content: space-between;
 }
 .no-margin {
     margin: 0;
