@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <header class="container-large bg-header">
-        <div class="container">
+    <header class="container-large">
+        <div class="container w-100">
             <div class="row-nav row-color">
                 <div class="column-nav f-nav">
                     <h1 id="home">BLU<span id="color-letter">E</span>ASY</h1>
                     <nav>
                         <ul class="flex-nav">
-                            <li class="transition-link"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="transition-link"><a class="nav-link style-default" href="#home">Home</a></li>
                             <li class="transition-link"><a class="nav-link" href="#services">Services</a></li>
                             <li class="transition-link"><a class="nav-link" href="#features">features</a></li>
                             <li class="transition-link"><a class="nav-link" href="#portfolio">portfolio</a></li>
@@ -33,42 +33,46 @@
         </div>
     </header>
 
-    <section class="container-large-2">
-        <div class="container-2">
+    <section class="container-large bg-service">
+        <div class="container">
             <div class="row-services">
                 <div class="column-services">
                     <div class="box-coffee">
-                        <h2 class="title-h2 border-b-white color-h2-white">SERVICES</h2>
+                        <h2 id="services" class="title-h2 border-b-white color-h2-white">SERVICES</h2>
                         <img src="images/coffee.png" alt="" width="34" height="48" class="margin-b">
                         <h3 class="margin-b style-h3">COFFEE</h3>
-                        <p id="cheat" class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, et error?
+                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem, et error?
                             Facere, soluta cumque in voluptas non itaque numquam sint, sit architecto amet repudiandae,
                             nemo fugiat sunt id iste dolorum!</p>
                     </div>
                 </div>
                 <div class="column-services">
                     <div class="box-instant">
-                        <img src="images/instant.png" alt="" width="34" height="48" class="margin-b">
+                        <img src="images/instant.png" alt="" width="48" height="48" class="margin-b">
                         <h3 class="margin-b style-h3">INSTANT</h3>
-                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, et error? Facere,
+                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem, et error? Facere,
                             soluta cumque in voluptas non itaque numquam sint, sit architecto amet repudiandae, nemo
                             fugiat sunt id iste dolorum!</p>
                     </div>
                 </div>
                 <div class="column-services">
                     <div class="box-serious">
-                        <img src="images/serious.png" alt="" width="34" height="48" class="margin-b">
+                        <img src="images/serious.png" alt="" width="47" height="45" class="margin-b">
                         <h3 class="margin-b style-h3">SERIOUS</h3>
-                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, et error? Facere,
+                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem, et error? Facere,
                             soluta cumque in voluptas non itaque numquam sint, sit architecto amet repudiandae, nemo
                             fugiat sunt id iste dolorum!</p>
                     </div>
                 </div>
                 <div class="column-services">
                     <div class="box-frame">
-                        <img src="images/frame.png" alt="" width="34" height="48" class="margin-b">
+                        <img src="images/frame.png" alt="" width="48" height="48" class="margin-b">
                         <h3 class="margin-b style-h3">FRAME</h3>
-                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, et error? Facere,
+                        <p class="style-p-services">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem, et error? Facere,
                             soluta cumque in voluptas non itaque numquam sint, sit architecto amet repudiandae, nemo
                             fugiat sunt id iste dolorum!</p>
                     </div>
@@ -77,23 +81,23 @@
         </div>
     </section>
 
-    <section class="container-large-3">
-        <div class="container-3">
+    <section class="container-large">
+        <div class="container">
             <div class="row-portfolio">
                 <div class="column-portfolio f-nav">
-                    <h2 class="title-h2 margin-t border-b-black">PORFORLIO</h2>
+                    <h2 id="portfolio" class="title-h2 margin-t border-b-black">PORFORLIO</h2>
                     <nav class="nav-bar margin-t">
-                        <ul class="flex-nav ul-color">
-                            <li><a class="nav-link-2" href="#all">ALL</a></li></a>
-                            <li><a class="nav-link-2" href="#panoramas">PANORAMAS</a></li></a>
-                            <li><a class="nav-link-2" href="#portraits">PORTRAITS</a></li></a>
-                            <li><a class="nav-link-2" href="#macro">MACRO</a></li></a>
-                            <li><a class="nav-link-2" href="#journal">JOURNAL</a></li></a>
+                        <ul class="flex-nav no-margin">
+                            <li><a class="nav-link-2 link-active" href="#all">ALL</a></li>
+                            <li><a class="nav-link-2" href="#panoramas">PANORAMAS</a></li>
+                            <li><a class="nav-link-2" href="#portraits">PORTRAITS</a></li>
+                            <li><a class="nav-link-2" href="#macro">MACRO</a></li>
+                            <li><a class="nav-link-2" href="#journal">JOURNAL</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-            <div class="row-portfolio-img">
+            <div>
                 <div class="column-portfolio-img">
                     <div class="container-img">
                         <img src="images/portfolio1.png" alt="paysage" width="270" height="270"
@@ -106,66 +110,70 @@
                         <img src="images/portfolio2.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                     <div class="container-img">
                         <img src="images/portfolio3.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                     <div class="container-img">
                         <img src="images/portfolio4.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                     <div class="container-img">
                         <img src="images/portfolio5.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                     <div class="container-img">
                         <img src="images/portfolio6.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                     <div class="container-img">
                         <img src="images/portfolio7.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                     <div class="container-img">
                         <img src="images/portfolio8.png" alt="paysage" width="270" height="270"
                             class="margin-img image">
                         <div class="overlay">
-                            <div class="plus"></div>
+                            <div class="plus"><a href="#">''</a></div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <section class="container-large-4">
-        <div class="container-4">
+    <section class="container-large bg-section4">
+        <div class="container">
             <div class="row-video">
                 <div class="section-text">
                     <div class="center-text">
-                        <h2 class="border-b-white color-h2-white">just default section</h2>
-                        <p class="margin-top-40 style-p-video">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, laborum
+                        <h2 id="features" class="border-b-white color-h2-white">just default section</h2>
+                        <p class="margin-top-40 style-p-video">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, laborum
                             recusandae ut
                             voluptas
-                            omnis tempora mollitia quisquam delectus cumque Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis harum dicta, enim molestiae similique aspernatur quia cumque.</p>
-                        <p class="margin-top-35 style-p-video">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, laborum
+                            omnis tempora mollitia quisquam delectus cumque Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Omnis harum dicta, enim molestiae similique aspernatur quia cumque.</p>
+                        <p class="margin-top-35 style-p-video">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, laborum
                             recusandae ut
                             voluptas
                             omnis tempora mollitia quisquam delectus cumque</p>
@@ -173,16 +181,19 @@
                     </div>
                 </div>
                 <div class="video">
-                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/d5-0OVmNzs8" frameborder="0"
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d5-0OVmNzs8" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe></p>
+                            allowfullscreen></iframe>
+                    </p>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container-large-5">
-        <div class="container-5">
+    <section class="container-large bg-twitter">
+        <div class="container">
             <div class="row-twitter">
                 <h2 class="border-b-white color-h2-white">twitter</h2>
                 <p><img src="images/icon-twitter.png" alt=""></p>
@@ -194,8 +205,8 @@
         </div>
     </section>
 
-    <section class="container-large-6">
-        <div class="container-6">
+    <section class="container-large bg-section6">
+        <div class="container">
             <div class="row-who-is">
                 <div class="column-text">
                     <h2 class="border-b-white color-h2-white">who is john doe ?</h2>
@@ -232,8 +243,8 @@
         </div>
     </section>
 
-    <section class="container-large-7">
-        <div class="container-7">
+    <section class="container-large">
+        <div class="container">
             <div class="row-citation">
                 <h2 class="border-b-black">testimonials</h2>
                 <p><img src="images/citation.png" alt=""></p>
@@ -246,20 +257,17 @@
         </div>
     </section>
 
-    <section class="container-large-8">
-        <div class="container-8">
+    <section class="container-large bg-contact">
+        <div class="container">
             <div class="row-contact">
                 <div class="column-form-contact">
-                    <h2 class="border-b-white color-h2-white">contact</h2>
-                    <form class="form-flex" action="" method="post">
-                    
-                    <label class="form-margin" for="name">FULL NAME</label>
-                    <input class="style-input" type="text" id="name" name="name" required>
+                    <h2 id="contact" class="border-b-white color-h2-white">contact</h2>
+                    <form class="form-flex" action="traitement.php" method="GET">
+                        <label class="form-margin" for="name">FULL NAME</label>
+                        <input class="valid-input style-input" type="text" id="name" name="name" required>
 
-                    <label class="form-margin" for="email">EMAIL</label>
-                    <input class="style-input" type="email" id="email" name="email" required>
-
-
+                        <label class="form-margin" for="email">EMAIL</label>
+                        <input class="valid-input style-input" type="email" id="email" name="email" required>
                 </div>
                 <div class="column-text">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ea quibusdam minima sapiente.
@@ -271,23 +279,25 @@
             </div>
             <div class="row-textarea">
                 <label class="form-margin" for="message">MESSAGE</label>
-                <textarea id="message" class="bg-textarea" name="message"></textarea>
+                <textarea class="valid-input bg-textarea size-textarea" id="message" name="message" required></textarea>
 
                 <input class="style-btn" type="submit" value="MESSAGE"></input>
-                    </form>
+                </form>
             </div>
         </div>
     </section>
 
     <footer class="footer-large">
-        <div class="footer">
+        <div class="container">
             <div class="row-footer">
                 <nav class="w-nav">
                     <ul class="no-margin ul-flex">
                         <li class="no-margin position-li"><a class="style-link-footer" href="#home">home</a></li>
-                        <li class="no-margin position-li"><a class="style-link-footer"href="#services">services</a></li>
-                        <li class="no-margin position-li"><a class="style-link-footer"href="#portfolio">portfolio</a></li>
-                        <li class="no-margin position-li"><a class="style-last-link"href="#contact">contact</a></li>
+                        <li class="no-margin position-li"><a class="style-link-footer" href="#services">services</a>
+                        </li>
+                        <li class="no-margin position-li"><a class="style-link-footer" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="no-margin position-li"><a class="style-last-link" href="#contact">contact</a></li>
                     </ul>
                 </nav>
                 <div class="copyright">
@@ -296,5 +306,8 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById("email").setCustomValidity("Veuillez renseigner un mail valide");
+    </script>
 </body>
 </html>
